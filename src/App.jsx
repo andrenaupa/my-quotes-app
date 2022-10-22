@@ -2,15 +2,14 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
 import QuoteBox from './components/QuoteBox';
+import Container from './components/Container';
 
 
 
 function App() {
-
-
   return (
     <div className="App" >
-      <QuoteBox />
+      <Container/>
     </div>
   )
 }
